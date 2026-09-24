@@ -55,3 +55,14 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Visual Studio
+.vs/
+*.user
+
+# ComplyAdvantage Cleanup Tool: never commit run data, uploads, local config or secrets
+**/App_Data/runs/
+*.xlsx
+appsettings.*.local.json
+secrets.json
+.claude/settings.local.json
